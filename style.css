@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #000000, #D53737);
+    font-family: Arial, sans-serif;
+}
+.center-block {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+.center-block h1, .center-block p {
+    margin: 10px 0;
+    color: #000000;
+}
+.center-block input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D53737;
+    border-radius: 5px;
+}
+.center-block button {
+    padding: 10px 20px;
+    background-color: #D53737;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.center-block button:hover {
+    background-color: #A42C2C;
+}

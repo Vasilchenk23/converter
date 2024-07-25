@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Конвертатор</title>
+</head>
+<body>
+    <div class="center-block">
+        <h1>Сумма</h1>
+        <input type="number" id="amount" placeholder="Введите сумму для конвертации">
+        <h1>Из валюты</h1>
+        <select id="fromCurrency">
+            <option value="UAH">UAH - Гривна</option>
+            <option value="USD">USD - Доллар США</option>
+            <option value="EUR">EUR - Евро</option>
+            <option value="BTC">BTC - Биткойн</option>
+            <option value="ETH">ETH - Эфириум</option>
+        </select>
+        <h1>В валюту</h1>
+        <select id="toCurrency">
+            <option value="USD">USD - Доллар США</option>
+            <option value="UAH">UAH - Гривна</option>
+            <option value="EUR">EUR - Евро</option>
+            <option value="BTC">BTC - Биткойн</option>
+            <option value="ETH">ETH - Эфириум</option>
+        </select>
+        <h1>Сумма в валюте</h1>
+        <input type="text" id="convertedAmount" readonly>
+        <button onclick="convertCurrency()">Конвертировать</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
